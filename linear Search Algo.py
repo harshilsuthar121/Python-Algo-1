@@ -15,4 +15,5 @@ result = linear_search(arr, target)
 
 if result != -1:
     print(f"Element {target} found at index {result}")
-
+else:
+    print(f"Element {target} not found in the list")
